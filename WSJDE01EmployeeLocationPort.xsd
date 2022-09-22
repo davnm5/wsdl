@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <!--  Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. 
+  --> 
+ <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.example.org" targetNamespace="http://www.example.org" elementFormDefault="qualified">
+ <xsd:element name="DepartmentRequestDept">
+ <xsd:complexType>
+  <xsd:sequence /> 
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="DepartmentInformationDept">
+ <xsd:complexType>
+ <xsd:sequence maxOccurs="unbounded">
+ <xsd:element name="Department">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="code" type="xsd:string" /> 
+  <xsd:element name="name" type="xsd:string" /> 
+  <xsd:element name="costCenter" type="xsd:string" /> 
+  <xsd:element name="costCenterName" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="EmployeeDepartmentDept">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="department" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="WorkLocationRequest">
+ <xsd:complexType>
+  <xsd:sequence /> 
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="WorkLocationInformation">
+ <xsd:complexType>
+ <xsd:sequence maxOccurs="unbounded">
+ <xsd:element name="WorkLocation">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="code" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="EmployeeWorkLocation">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="workLocation" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="EmployeeInformationWL">
+ <xsd:complexType>
+ <xsd:sequence maxOccurs="unbounded">
+ <xsd:element name="Employee">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="addressNumber" type="xsd:long" /> 
+  <xsd:element name="nameAlpha" type="xsd:string" /> 
+  <xsd:element name="employmentStatus" type="xsd:string" /> 
+  <xsd:element name="employmentStatusDescription" type="xsd:string" /> 
+  <xsd:element name="payStatus" type="xsd:string" /> 
+  <xsd:element name="payStatusDescription" type="xsd:string" /> 
+  <xsd:element name="dateBirth" type="xsd:string" /> 
+  <xsd:element name="gender" type="xsd:string" /> 
+  <xsd:element name="emailAddress" type="xsd:string" /> 
+  <xsd:element name="preferredName" type="xsd:string" /> 
+  <xsd:element name="searchType" type="xsd:string" /> 
+  <xsd:element name="searchTypeDescription" type="xsd:string" /> 
+  <xsd:element name="taxId" type="xsd:string" /> 
+  <xsd:element name="userId" type="xsd:string" /> 
+  <xsd:element name="address" type="xsd:string" /> 
+  <xsd:element name="phoneNumber" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="EmployeeOrganizationalInformationWL">
+ <xsd:complexType>
+ <xsd:sequence maxOccurs="unbounded">
+ <xsd:element name="EmployeeOrganization">
+ <xsd:complexType>
+  <xsd:sequence>
+  <xsd:element name="company" type="xsd:string" /> 
+  <xsd:element name="companyDescription" type="xsd:string" /> 
+  <xsd:element name="contingentType" type="xsd:string" /> 
+  <xsd:element name="contingentTypeDescription" type="xsd:string" /> 
+  <xsd:element name="costCenter" type="xsd:string" /> 
+  <xsd:element name="costCenterDescription" type="xsd:string" /> 
+  <xsd:element name="country" type="xsd:string" /> 
+  <xsd:element name="countryName" type="xsd:string" /> 
+  <xsd:element name="dateCurrentPosition" type="xsd:string" /> 
+  <xsd:element name="departmentCode" type="xsd:string" /> 
+  <xsd:element name="departmentName" type="xsd:string" /> 
+  <xsd:element name="dateStarted" type="xsd:string" /> 
+  <xsd:element name="addressNumber" type="xsd:long" /> 
+  <xsd:element name="flsaExempt" type="xsd:string" /> 
+  <xsd:element name="jobCatCode" type="xsd:string" /> 
+  <xsd:element name="jobCatCodeDescription" type="xsd:string" /> 
+  <xsd:element name="jobTitle" type="xsd:string" /> 
+  <xsd:element name="workLocation" type="xsd:string" /> 
+  <xsd:element name="parentName" type="xsd:string" /> 
+  <xsd:element name="parentNumber" type="xsd:string" /> 
+  <xsd:element name="serviceDate" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+ <xsd:element name="EmployeeOrgInf">
+ <xsd:complexType>
+ <xsd:sequence>
+  <xsd:element name="addressNumber" type="xsd:string" /> 
+  </xsd:sequence>
+  </xsd:complexType>
+  </xsd:element>
+  </xsd:schema>
