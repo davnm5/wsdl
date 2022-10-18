@@ -188,7 +188,7 @@
 </binding>
 <service name="WSJDE01EmployeeInformation">
 <port name="WSJDE01EmployeeInformationPort" binding="tns:WSJDE01EmployeeInformationSOAP12Binding">
-<soap12:address location="https://21a9-179-49-33-160.sa.ngrok.io/WSJDE01EmployeeInformation/WSJDE01EmployeeInformationPort"/>
+<soap12:address location="https://74c1-179-49-33-160.sa.ngrok.io/WSJDE01EmployeeInformation/WSJDE01EmployeeInformationPort"/>
 </port>
 </service>
 </definitions>
