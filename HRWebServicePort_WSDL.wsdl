@@ -583,7 +583,7 @@
 </binding>
 <service name="HRWebService">
 <port name="HRWebServicePort" binding="tns:HRWebServiceSOAP11Binding">
-<soap12:address location="https://74c1-179-49-33-160.sa.ngrok.io/HRWebServices/HRWebServicePort"/>
+<soap12:address location="https://4714-179-49-33-160.sa.ngrok.io/HRWebServices/HRWebServicePort"/>
 </port>
 </service>
 </definitions>
